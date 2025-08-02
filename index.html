@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pokedex" />
+    <meta name="author" content="Nazarena Molina" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html" class="paginaActiva">Pokedex</a>
+        <a href="https://www.pokemon.com/el/app" target="_blank">Aplicaciones</a>
+        <a href="https://www.pokemon.com/el/jcc-pokemon" target="_blank">Juegos de Cartas</a>
+        <a href="https://www.pokemon.com/el/noticias-pokemon" target="_blank">Noticias</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Pokedex</h1>
+        <form>
+          <div>
+            <label for="Ordenar por">Ordenar por:</label>
+            <select id="Número inferior">
+              <option value="Numero inferior">Número inferior</option>
+              <option value="Numero superior">Número superior</option>
+              <option value="A-Z">A-Z</option>
+              <option value="Z-A">Z-A</option>
+            </select>
+          </div>
+        </form>
+        <div class="iniciarSesion">
+          <i class="bi bi-person-circle"></i>
+          <p>Iniciar sesión</p>
+        </div>
+        <div class="buscar">
+          <i class="bi bi-search"></i>
+        </div>
+      </section>
+      <section>
+        <div class="pokemon">
+          <div>
+            <a href="https://www.pokemon.com/el/pokedex/bulbasaur" target="_blank"><img src="./img/bulbasaur.png" alt="Pokemon" /></a>
+            <h3 class="titulo">N.° 0001</h3>
+            <h3 class="titulo2">Bulbasaur</h3>
+            <h2 class="planta">Planta</h2>
+            <h2 class="veneno">Veneno</h2>
+          </div>
+        </div>
+        <div class="pokemon">
+          <div>
+            <a href="https://www.pokemon.com/el/pokedex/charmander" target="_blank"><img src="./img/charmander.png" alt="Pokemon" /></a>
+            <h3 class="titulo">N.° 0004</h3>
+            <h3 class="titulo2">Charmander</h3>
+            <h2 class="fuego">Fuego</h2>
+          </div>
+        </div>
+        <div class="pokemon">
+          <div>
+            <a href="https://www.pokemon.com/el/pokedex/squirtle" target="_blank"><img src="./img/squirtle.png" alt="Pokemon" /></a>
+            <h3 class="titulo">N.° 0007</h3>
+            <h3 class="titulo2">Squirtle</h3>
+            <h2 class="agua">Agua</h2>
+          </div>
+        </div>
+        <div class="pokemon">
+          <div>
+            <a href="https://www.pokemon.com/el/pokedex/weedle" target="_blank"><img src="./img/weedle.png" alt="Pokemon" /></a>
+            <h3 class="titulowee">N.° 0013</h3>
+            <h3 class="titulowee2">Weedle</h3>
+            <h2 class="bicho">Bicho</h2>
+            <h2 class="veneno">Veneno</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

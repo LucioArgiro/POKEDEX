@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text: #282225;
+    --bg: #c3e7eb;
+    --nav: #c0c3a7;
+    --btn: #906761;
+    --title: #6999b7;
+    --blue: #7eb5d3;
+    --lightblue: #9ae2f9;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    margin: 0px 80px;
+    margin-top: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+nav {
+    background-color: var(--nav);
+    text-align: center;
+    box-shadow: 0px 0px 20px var(--text);
+}
+
+nav a {
+    color: var(--btn);
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 15px 25px;
+    font-weight: 700;
+    transition: 400ms;
+    display: inline-block;
+    min-width: 183px;
+}
+
+nav a:hover {
+    background-color: #90676139;
+    color: var(--btn);
+}
+
+.paginaActiva {
+    background-color: var(--btn);
+    color: var(--nav);
+}
+
+footer {
+    background: var(--text);
+    text-align: center;
+    color: var(--nav);
+    padding: 18px;
+}
+
+form {
+    width: 275px;
+    padding: 10px;
+    border: 1px solid #28222569;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #28222557;
+    margin: 0px 80px;
+    margin-bottom: 20px;
+    white-space: nowrap; /* para alinear el label con el select*/
+    }
+
+select {
+    border: 1px solid #beb9be;
+    border-radius: 5px;
+    padding: 6px 6px;
+    font-size:medium;
+    display: inline-block; /* para alinear el label con el select*/
+}
+
+.iniciarSesion {
+    padding-top: 20px;
+    width: 65px;
+    height: 100px;
+    background-color: var(--text);
+    color: #c0c3a76d;
+    font-size:medium;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 180px;
+}
+
+.iniciarSesion:hover {
+    color: var(--nav);
+    cursor: pointer;
+}
+
+.buscar {
+    padding-top: 25px;
+    width: 65px;
+    height: 65px;
+    background-color: var(--text);
+    color: #c0c3a76d;
+    font-size:medium;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 260px;
+}
+
+.buscar:hover {
+    color: var(--nav);
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+}
+
+.pokemon {
+    margin: 20px 80px;
+    margin-bottom: 50px;
+    background-color: #71696d4c;
+    border: 2px solid #28222569;
+    height: 260px;
+    position: relative;
+    width: 210px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px var(--text);
+    transition: transform 0.3s ease;
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+}
+
+.titulo {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #5e595c;
+    margin-top: 5px;
+    padding: 10px 0px;
+}
+
+.titulo2 {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: var(--text);
+    padding-bottom: 10px;
+    margin-top: 36px;
+ }
+
+.planta {
+    background-color: #5da15a;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+    display: inline-block;
+    min-width: 67px;
+    text-align: center;
+    left: 10px;
+}
+
+.veneno {
+    background-color: #8e549d;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+    text-align: center;
+    left: 85px;
+}
+
+.fuego {
+    background-color: #d78930;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+    display: inline-block;
+    min-width: 67px;
+    text-align: center;
+    left: 10px;
+}
+
+.agua {
+    background-color: #487dc7;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+    display: inline-block;
+    min-width: 67px;
+    text-align: center;
+    left: 10px;
+}
+
+.bicho {
+    background-color: #67a184;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+    display: inline-block;
+    min-width: 67px;
+    text-align: center;
+    left: 10px;
+}
+
+.titulowee {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: #5e595c;
+    padding: 10px 0px;
+    bottom: 22px;
+}
+
+.titulowee2 {
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: var(--text);
+    padding-bottom: 10px;
+    margin-top: 21px;
+ }
+
+
+
